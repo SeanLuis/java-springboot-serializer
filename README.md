@@ -34,3 +34,14 @@ Serializers and groups are essential for:
 5. Use a tool like Postman to test the `/api/filters/basic`, `/api/filters/advanced`, and `/api/filters/full` endpoints.
 
 This project is designed to be a learning resource for managing complex data structures in Spring Boot applications. It is especially useful for developers looking to understand and implement serialization and grouping strategies in their APIs.
+
+## Testing
+
+This project includes unit tests for its endpoints, ensuring that the serializers and groups are working as expected.
+
+### Running the Tests
+
+To run the tests, you can use the following command in the root directory of the project:
+
+```bash
+./mvnw test
